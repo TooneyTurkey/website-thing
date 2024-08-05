@@ -4,6 +4,8 @@ html, body {
     padding: 0;
     height: 100%;
     overflow: hidden;
+    background-color: #121212; /* Dark background color */
+    color: #e0e0e0; /* Light text color for readability */
 }
 
 .iframe-container {
@@ -12,7 +14,7 @@ html, body {
     left: 0;
     width: 100vw;
     height: 100vh;
-    background-color: white; /* Set the background to white */
+    background-color: #121212; /* Match the dark background color */
     overflow: hidden; /* Hide any overflow */
     z-index: -1; /* Ensure iframe is behind other content */
 }
@@ -28,10 +30,10 @@ html, body {
     position: absolute;
     top: 10px;
     right: 10px;
-    color: black; /* Set clock text color to black for better visibility on white */
+    color: #e0e0e0; /* Light text color for the clock */
     font-family: Arial, sans-serif;
     font-size: 16px;
-    background: rgba(255, 255, 255, 0.7); /* Semi-transparent white background */
+    background: rgba(0, 0, 0, 0.7); /* Semi-transparent dark background for clock */
     padding: 5px;
     border-radius: 3px;
     z-index: 1; /* Ensure clock is above iframe */
@@ -41,5 +43,5 @@ html, body {
     position: relative;
     z-index: 2; /* Ensure content is above iframe */
     padding: 20px;
-    color: black; /* Change text color to black */
+    color: #e0e0e0; /* Light text color for content */
 }
