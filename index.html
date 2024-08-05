@@ -1,8 +1,19 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fullscreen Iframe</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <iframe src="https://6klabs.com/widget/spotify/957ed0b6dfd215303f7523a78799e7a78275833c31ea557785d94213d6237a9f" width="400" height="200"></iframe>
+    <div class="iframe-container">
+        <iframe src="https://6klabs.com/widget/spotify/957ed0b6dfd215303f7523a78799e7a78275833c31ea557785d94213d6237a9f" frameborder="0" allowfullscreen></iframe>
+        <div id="clock" class="clock"></div>
+    </div>
+    <div class="content">
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
