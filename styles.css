@@ -43,9 +43,10 @@ body {
     right: 10px;
     color: #e0e0e0; /* Light text color */
     font-family: Arial, sans-serif;
-    font-size: 16px;
+    font-size: 30px; /* Increase font size for larger clock */
     background: rgba(0, 0, 0, 0.7); /* Dark semi-transparent background */
-    padding: 10px;
-    border-radius: 5px;
+    padding: 15px; /* Increase padding for larger clock size */
+    border-radius: 8px; /* Rounded corners */
     z-index: 1; /* Ensure it’s above the iframe */
+    display: inline-block; /* Ensure proper display */
 }
